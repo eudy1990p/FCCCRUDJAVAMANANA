@@ -113,6 +113,7 @@ public void insertar(){
                    MYSQL.MySql.resultSet.getString("sexo")};
                   modelo.addRow(columnas);
              }
+            //javax.swing.table.DefaultTableModel
           this.jTable1.setModel(modelo);
         } catch (Exception ex) {
             System.out.println(ex.getCause()+ex.getMessage()+ex.getLocalizedMessage());
@@ -229,7 +230,7 @@ public void insertar(){
                     .addComponent(jButton1)
                     .addComponent(jButton2)
                     .addComponent(jButton3))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(127, Short.MAX_VALUE))
         );
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -253,8 +254,8 @@ public void insertar(){
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 50, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
